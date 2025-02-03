@@ -3,8 +3,6 @@ class Operation():
         self.nombre1 = nombre1
         self.nombre2 = nombre2
 
-    def retrun(self):
-        return self.nombre1, self.nombre2
 
 #instancier un objet
 objet = Operation(12, 3)
