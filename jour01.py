@@ -1,20 +1,18 @@
-class Operation():
-    def __init__(self, nombre1, nombre2):
-        self.nombre1 = nombre1
-        self.nombre2 = nombre2
-    
-    def addition(self):
-        return self.nombre1 + self.nombre2
-    
+class Personne():
+    def __init__(self, prenom, nom):
+        self.prenom = prenom
+        self.nom = nom
+
+    def SePresenter(self):
+        print(f"Je suis {self.prenom} {self.nom}")
+
     def __str__(self):
-        return f"{self.nombre1}, {self.nombre2}"
+        return f"{self.prenom}, {self.nom}"
 
 
-#instancie un objet
-objet = Operation(12, 3)
+personne1 = Personne("John", "Doe")
+personne2 = Personne("Jean", "Dupond")
 
-# appelle une méthode sur un objet instancié
-resultat = objet.addition()
 
-print(resultat)
-        
+personne1.SePresenter()
+personne2.SePresenter()
