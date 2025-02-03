@@ -3,6 +3,13 @@ class Operation():
         self.nombre1 = nombre1
         self.nombre2 = nombre2
 
-x = Operation(1, 2)
-print(x)
+    def retrun(self):
+        return self.nombre1, self.nombre2
+
+#instancier un objet
+objet = Operation(12, 3)
+
+# impression d'un attribut de l'objet
+print(f"Le nombre1 est {objet.nombre1}")
+print(f"Le nombre1 est {objet.nombre2}")
         
