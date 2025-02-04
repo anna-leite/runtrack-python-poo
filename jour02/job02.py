@@ -4,7 +4,7 @@ class Livre:
         self.__auteur = auteur
         self.__nb_pages = nb_pages
 
-    # accesseurs
+    # assesseurs
     def get_titre(self):
         return self.__titre
     

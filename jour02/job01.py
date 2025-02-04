@@ -3,7 +3,7 @@ class Rectangle:
         self.__longueur = longueur
         self.__largeur = largeur
 
-    # accesseur
+    # assesseur
     def get_longueur(self):
         return self.__longueur 
     
@@ -11,7 +11,7 @@ class Rectangle:
     def set_longueur(self, nouvelle_longueur):
         self.__longueur = nouvelle_longueur
 
-    # accesseur
+    # assesseur
     def get_largeur(self):
         return self.__largeur
 
