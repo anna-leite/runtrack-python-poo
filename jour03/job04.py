@@ -40,7 +40,11 @@ class EquipeFoot:
         self.__liste_joueurs.append(instance_joueur)
 
     def AfficherStatistiquesJoueurs(self):
+        for joueur in self.__liste_joueurs:
+            joueur.afficherStatistique()
 
-    def mettreAJourStati
+    def mettreAJourStatistiquesJoueur(self, nom, buts_marques=0, passes_decisive=0, cartons_jaunes=0, cartons_rouges=0):
+        for element in self.__liste_joueurs:
+            if 
 
 
